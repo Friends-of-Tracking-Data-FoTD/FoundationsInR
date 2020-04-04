@@ -8,9 +8,9 @@ This repository will contain getting started material with R. It will try to cov
 
 The code that is available at the moment is the following:
 
-1. Draw_Pitch.R
-  1. A file that draws the pitch used for visualizing data on a soccer field. It hasn't yet be turned into a function, but the first two  lines of code will let you set the pitch dimensions. It is set to 120 x 80 based on the dimensions used by StatsBomb. 
-  2. Learn to create your own pitch from scratch with FC_rStats (https://github.com/FCrSTATS/Visualisations/blob/master/3.CreateAPitch.md)
+ Markup : * Draw_Pitch.R
+              * A file that draws the pitch used for visualizing data on a soccer field. It hasn't yet be turned into a function, but the first two  lines of code will let you set the pitch dimensions. It is set to 120 x 80 based on the dimensions used by StatsBomb. 
+              * Learn to create your own pitch from scratch with FC_rStats (https://github.com/FCrSTATS/Visualisations/blob/master/3.CreateAPitch.md)
   
 2. Statsbomb.R
   1. A file containing how to get started with the StatsBomb open data, provided to us graciously via this link: https://github.com/statsbomb/open-data. 
