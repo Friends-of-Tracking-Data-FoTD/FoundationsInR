@@ -1,5 +1,5 @@
 # FoundationsInR
-This repository will contain getting started material with R. It will try to cover the topics of (all with soccer examples of course!): 
+This repository will contain getting started material with R. It will try to cover the topics of how to begin programming with R: 
 
 -Data transformation (working with scalars, arrays, vectors, lists, dataframes, matrices, data tables) 
 -Data visualization
