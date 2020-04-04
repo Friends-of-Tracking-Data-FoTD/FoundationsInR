@@ -14,7 +14,7 @@ The code that is available at the moment is the following:
   
 2. Statsbomb.R
   1. A file containing how to get started with the StatsBomb open data, provided to us graciously via this link: https://github.com/statsbomb/open-data. 
-  2.Some additional repos that may help: 
+3. Some additional repos that may help: 
     -https://github.com/statsbomb/StatsBombR (Feel free to look at the code for how they pull data to see the difference between what is provided in this repo vs other ways to transform data)
     -https://github.com/etmckinley/PassSonar
     -https://ryo-n7.github.io/2019-08-21-visualize-soccer-statsbomb-part-1/
