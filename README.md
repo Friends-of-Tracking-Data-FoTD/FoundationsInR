@@ -16,4 +16,4 @@ The code that is available at the moment is the following:
 * Some additional repos that may help: 
   * https://github.com/statsbomb/StatsBombR (Feel free to look at the code for how they pull data to see the difference between what is provided in this repo vs other ways to transform data)
   * https://github.com/etmckinley/PassSonar
-  *https://ryo-n7.github.io/2019-08-21-visualize-soccer-statsbomb-part-1/
+  * https://ryo-n7.github.io/2019-08-21-visualize-soccer-statsbomb-part-1/
