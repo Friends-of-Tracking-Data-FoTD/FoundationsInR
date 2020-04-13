@@ -14,6 +14,9 @@ The code that is available at the moment is the following:
 * Statsbomb.R
   * A file containing how to get started with the StatsBomb open data, provided to us graciously via this link: https://github.com/statsbomb/open-data. 
   
+* Statsbomb_Shiny_Part1.R
+  * Most of the code is reused from Statsbomb.R except we now create a basic shiny application to visualize shot map information
+  
 
 Some additional repos that may help: 
   * https://github.com/statsbomb/StatsBombR (Feel free to look at the code for how they pull data to see the difference between what is provided in this repo vs other ways to transform data)
