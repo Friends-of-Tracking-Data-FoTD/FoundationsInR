@@ -194,7 +194,7 @@ horipitch2$y <- horipitch2$y * -1
 
 hori5 <- ggplot()+ geom_polygon(data = horipitch2[horipitch2$group %in% seq(1:36),], aes(x = x, y = y, group = group), col = "#FFFFFFB3") +
   #geom_polygon(data = horipitch2[horipitch2$group %in% seq(from=37,to=48),], aes(x=x, y=y, group=group), col= "#FFFF00B3") + 
-  geom_segment(aes(x=100,y=-5,xend=90,yend=-5),arrow=arrow(length = unit(0.03, "npc")))+
+  geom_segment(aes(x=90,y=-5,xend=100,yend=-5),arrow=arrow(length = unit(0.03, "npc")))+
   coord_equal() +
   # xlim(-10,115) +
   # ylim(-10,78) +
