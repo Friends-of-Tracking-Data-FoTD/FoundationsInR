@@ -235,7 +235,11 @@ colnames(campo.coordinates) <- c("X","Y")
 
 #######################Create the Shiny Application###################################
 source("your_file_path\\Draw_Pitch.R") #load in hori5, which contains the soccer field
+#install.packages("shiny")
 library(shiny)
+#runExample()
+#runExample("01_hello") 
+
 
 # Define UI for dataset viewer app ----
 ui <- fluidPage(
