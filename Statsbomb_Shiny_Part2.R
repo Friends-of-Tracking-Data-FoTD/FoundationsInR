@@ -177,7 +177,7 @@ for(i in 1:length(event.files)){
       shots.xg <- ifelse("statsbomb_xg" %!in% names(shots.temp$shot),NA, shots.temp$shot$statsbomb_xg)
       keypass <- ifelse("key_pass_id" %!in% names(shots.temp$shot),NA,shots.temp$shot$key_pass_id)
       keypass.location <- if(!is.na(keypass)){
-        as.vector(unlist(pass.team1.df[which(pass.team1.df$passid==keypass),c("X.Pass","Y.Pass")]))
+        as.vector(unlist(pass.team2.df[which(pass.team2.df$passid==keypass),c("X.Pass","Y.Pass")]))
       }else{
         c(NA,NA)
       }
@@ -205,7 +205,6 @@ for(i in 1:length(event.files)){
 #Already I have found some mistakes in pulling in shot information, can you find them?
 
 #We want to create a dataframe of all shots with meta-information (e.g. competition, season, pass location, shot location, shooter)
-
 shots <- lapply(event.list,function(x) x[[3]])
 shots.df <- plyr::ldply(lapply(shots,function(x) rbindlist(x,fill=TRUE)),.id="match_id")
 shots.df <- shots.df %>% group_by(match_id,team_id) %>% mutate(xGoal_Total = sum(xG))
