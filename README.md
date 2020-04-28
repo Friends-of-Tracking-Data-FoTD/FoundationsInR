@@ -16,7 +16,9 @@ The code that is available at the moment is the following:
   
 * Statsbomb_Shiny_Part1.R
   * Most of the code is reused from Statsbomb.R except we now create a basic shiny application to visualize shot map information
-  
+
+* Statsbomb_Shiny_Part2.R
+  * An extension from Part 1 to build a fully functional interactive shot map via R Shiny. Goes more in-depth into the UI and Server pieces within an application. 
 
 Some additional repos that may help: 
   * https://github.com/statsbomb/StatsBombR (Feel free to look at the code for how they pull data to see the difference between what is provided in this repo vs other ways to transform data)
