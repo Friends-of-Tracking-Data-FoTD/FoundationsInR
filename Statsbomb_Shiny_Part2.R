@@ -238,6 +238,7 @@ source("your_file_path\\Draw_Pitch.R") #load in hori5, which contains the soccer
 library(shiny)
 #runExample()
 #runExample("01_hello") 
+library(mgcv)
 
 
 # Define UI for dataset viewer app ----
@@ -295,7 +296,6 @@ ui <- fluidPage(
       ))
     ),
     mainPanel(
-      tableOutput("shottable"),
       plotOutput("shotplot"),
       verbatimTextOutput("selectedpoints")
     )
@@ -346,7 +346,6 @@ server <- function(input, output, clientData,session) {
     }  
   })
   
-  #output$shottable <- renderTable({data()})
   
   output$assistmap <- renderPlot({hori5})
   
