@@ -1,10 +1,10 @@
 # FoundationsInR
 This repository will contain getting started material with R. It will try to cover the topics of how to begin programming with R: 
 
--Data transformation (working with scalars, arrays, vectors, lists, dataframes, matrices, data tables) 
--Data visualization
--Performing analysis 
--Interactive applications in Shiny
+-Data transformation (working with scalars, arrays, vectors, lists, dataframes, matrices, data tables)<br/>
+-Data visualization<br/>
+-Performing analysis<br/> 
+-Interactive applications in Shiny<br/>
 
 The code that is available at the moment is the following:
 * Draw_Pitch.R
